@@ -1,0 +1,54 @@
+
+Usando el CMD proporcionado por GIT.
+
+- ls: nos lista los directorios y archivos que tenemos
+- pwd: el directorio sobre el que estamos en la terminal
+
+
+Commands:
+
+git init: Básicamente nos crea la carpeta .git que contiene todos los cambios de nuestros códigos.
+
+git status: Nos va a indicar que archivos tenemos o que archivos estamos trabajando los que estan en rojo son archivos que no están siendo monitorizados por git.
+
+Aquí nos indica que para monitorizar mis archivos a mi área de trabajo tengo que utilizar el comando "git add + nomb_archivo
+
+git add -File-: Es para agregar mis archivos a git para que me los monitorice.
+
+git commit: Para comenzar a trabajar con it, al comienzo me pide configurar mi mail y username para identificar la persona que efectuo los cambios.
+
+	En este caso, si es la primera vez, me pide:
+
+git config --global user.email "cb.cristian1987.gmail.com"
+git config --global user.name "Cristian"
+
+Conceptos:
+
+SNAPSHOT:Nuestro primer punto de partida. Se le indica mediante el uso del command 'git commit'.
+
+Enseguida nos aparece para colocar un mensaje antes de subir nuestros cambios ejemplo, agrego: "mi primer commit" para agregarlo, debo dar "Esc" + :wq
+
+Como respuesta: Nos da una respuesa de que se ha creado nuestra primera versión de nuestro programa.
+
+git log:
+Ahora con git log obtenemos nuestro primer hash que es la forma de diferenciar nuestros primeros commits, snapshot o cada versión de nuestro programa.
+
+Ahora si usamos git status: No nos va a encontrar ningún archivo porque no va a detectar ningún cambio.
+
+git restore + File o git checkout -- File: 
+	Para revertir los cambios realizados sobre un archivo.
+
+git diff + nombre del archivo: Nos muestra las diferencias del archivo a cuando nosotros lo modificamos.
+
+Ahora para agregar mis cambios básta con hacer nuevamente un git add y un git status para ver mis cambios.
+
+Con git restore --staged FILE: Sirve para quitar o revertir un archivo que agregamos, lo quitamos de nuestro proyecto.
+
+
+
+
+
+
+
+
+
