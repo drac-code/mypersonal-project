@@ -10,12 +10,13 @@ Commands:
 git init: Básicamente nos crea la carpeta .git que contiene todos los cambios de nuestros códigos.
 
 git status: Nos va a indicar que archivos tenemos o que archivos estamos trabajando los que estan en rojo son archivos que no están siendo monitorizados por git.
+Los que estan en verde, son los que ya fueron agregados o modificados, PERO!! Para terminar de confirmarlos en nuestro proyecto, debemos darle un git commit para guardar dichos cambios y así mostrarnos que no tenemos más estados para agregar.
 
 Aquí nos indica que para monitorizar mis archivos a mi área de trabajo tengo que utilizar el comando "git add + nomb_archivo
 
 git add -File-: Es para agregar mis archivos a git para que me los monitorice.
 
-git commit: Para comenzar a trabajar con it, al comienzo me pide configurar mi mail y username para identificar la persona que efectuo los cambios.
+git commit: Para comenzar a trabajar con commit, al comienzo me pide configurar mi mail y username para identificar la persona que efectuo los cambios.
 
 	En este caso, si es la primera vez, me pide:
 
